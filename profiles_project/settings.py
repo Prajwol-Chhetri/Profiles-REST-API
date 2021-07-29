@@ -29,7 +29,6 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -37,6 +36,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+
+    'rest_framework', # adding rest framework
+    'rest_framework.authtoken',  # authentication token that ccomes with rest framework
+    'profiles_api', # user created app
 ]
 
 MIDDLEWARE = [
